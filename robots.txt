@@ -1,0 +1,19 @@
+# robots.txt for ITMO - Michael Ohana
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://itmo.co.il/sitemap.xml
+
+# Crawl delay (optional - prevents overloading server)
+Crawl-delay: 10
+
+# Block specific bots if needed (examples - commented out)
+# User-agent: BadBot
+# Disallow: /
+
+# Disallow crawling of specific files/folders if needed
+# Disallow: /private/
+# Disallow: /admin/

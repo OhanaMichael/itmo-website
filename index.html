@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>ITMO - מיכאל אוחנה | מומחה בניהול מערכות דיגיטליות, מלונאות ורשתות חברתיות</title>
+    <meta name="title" content="ITMO - מיכאל אוחנה | מומחה בניהול מערכות דיגיטליות">
+    <meta name="description" content="מיכאל אוחנה - מומחה בניהול מערכות דיגיטליות, מערכות ניהול בתי מלון, ערוצי הפצה (Booking, Agoda, Airbnb), רשתות חברתיות ומערכות להצעות מחיר לרשויות מקומיות. ניסיון רב בפורטלים כמו מלונות בטבריה והרשות לפיתוח הגליל.">
+    <meta name="keywords" content="מיכאל אוחנה, ITMO, ניהול מערכות דיגיטליות, מערכות PMS, Booking.com, Agoda, Airbnb, Expedia, ניהול בתי מלון, רשתות חברתיות, Facebook, Instagram, LinkedIn, מלונות בטבריה, הרשות לפיתוח הגליל, מערכות להצעות מחיר, אוטומציה, Google Maps, Waze">
+    <meta name="author" content="מיכאל אוחנה - ITMO">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Hebrew">
+    <meta name="geo.region" content="IL">
+    <meta name="geo.placename" content="ישראל">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://itmo.co.il/">
+    <meta property="og:title" content="ITMO - מיכאל אוחנה | מומחה בניהול מערכות דיגיטליות">
+    <meta property="og:description" content="מומחה בניהול מערכות דיגיטליות, מערכות ניהול בתי מלון, ערוצי הפצה, רשתות חברתיות ומערכות להצעות מחיר לרשויות. ניסיון רב עם פרויקטים כמו מלונות בטבריה והרשות לפיתוח הגליל.">
+    <meta property="og:locale" content="he_IL">
+    <meta property="og:site_name" content="ITMO">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://itmo.co.il/">
+    <meta property="twitter:title" content="ITMO - מיכאל אוחנה | מומחה בניהול מערכות דיגיטליות">
+    <meta property="twitter:description" content="מומחה בניהול מערכות דיגיטליות, מערכות ניהול בתי מלון, ערוצי הפצה, רשתות חברתיות ומערכות להצעות מחיר לרשויות.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://itmo.co.il/">
+    
+    <!-- Structured Data - JSON-LD for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "ITMO - מיכאל אוחנה",
+      "description": "מומחה בניהול מערכות דיגיטליות, מערכות ניהול בתי מלון וערוצי הפצה",
+      "url": "https://itmo.co.il",
+      "telephone": "+972-50-5750000",
+      "email": "michael@itmo.co.il",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IL",
+        "addressLocality": "ישראל"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "מיכאל אוחנה",
+        "jobTitle": "מנהל צוותים ומערכות דיגיטליות",
+        "email": "michael@itmo.co.il",
+        "telephone": "+972-50-5750000",
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "האוניברסיטה העברית בירושלים",
+            "description": "תואר שני במדיניות ציבורית וממשל - מסלול מצטיינים"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "המכללה האקדמית צפת",
+            "description": "תואר ראשון בניהול מערכות מידע - בהצטיינות"
+          }
+        ]
+      },
+      "sameAs": [
+        "https://linkedin.com/in/michael-ohana-informationtechnology",
+        "https://wa.me/972505750000"
+      ],
+      "areaServed": "IL",
+      "serviceType": [
+        "ניהול מערכות דיגיטליות",
+        "מערכות ניהול בתי מלון",
+        "ערוצי הפצה OTA",
+        "רשתות חברתיות ושיווק דיגיטלי",
+        "מערכות להצעות מחיר לרשויות"
+      ]
+    }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Assistant:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0a4d68;
+            --primary-light: #0d7ca8;
+            --accent: #f39c12;
+            --accent-dark: #e67e22;
+            --dark: #1a1a2e;
+            --light: #f8f9fa;
+            --gradient-1: linear-gradient(135deg, #0a4d68 0%, #0d7ca8 100%);
+            --gradient-2: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            --shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 15px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Heebo', sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0a4d68 0%, #1a5f7a 50%, #0d7ca8 100%);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Assistant', sans-serif;
+            font-size: 2rem;
+            color: white;
+            font-weight: 800;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 5px 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0a4d68 0%, #1a5f7a 50%, #0d7ca8 100%);
+            padding: 150px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(243, 156, 18, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(13, 124, 168, 0.2) 0%, transparent 50%);
+            animation: float 15s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-family: 'Assistant', sans-serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 1s ease-out 0.2s backwards;
+            font-weight: 800;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 300;
+            animation: fadeInUp 1s ease-out 0.4s backwards;
+        }
+
+        .hero .description {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+            animation: fadeInUp 1s ease-out 0.6s backwards;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            animation: fadeInUp 1s ease-out 0.8s backwards;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient-2);
+            color: white;
+            box-shadow: 0 5px 20px rgba(243, 156, 18, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(243, 156, 18, 0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Featured Project Section */
+        .featured-project {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 20px;
+            padding: 60px;
+            box-shadow: var(--shadow);
+            margin-top: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: var(--gradient-1);
+            opacity: 0.05;
+            border-radius: 50%;
+            transform: translate(50%, -50%);
+        }
+
+        .project-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .project-icon {
+            font-size: 4rem;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .project-title {
+            flex: 1;
+        }
+
+        .project-title h3 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .project-title .client {
+            font-size: 1.2rem;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .project-description {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.9;
+            margin-bottom: 30px;
+        }
+
+        .project-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: start;
+            gap: 15px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+        }
+
+        .highlight-icon {
+            font-size: 1.8rem;
+            flex-shrink: 0;
+        }
+
+        .highlight-text {
+            flex: 1;
+        }
+
+        .highlight-text strong {
+            display: block;
+            color: var(--primary);
+            margin-bottom: 5px;
+            font-size: 1.05rem;
+        }
+
+        .highlight-text span {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Assistant', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+            position: relative;
+            padding-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+            width: 80px;
+            height: 4px;
+            background: var(--gradient-2);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 60px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-1);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 0;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--primary-light);
+        }
+
+        .service-card:hover::before {
+            opacity: 0.05;
+        }
+
+        .service-card > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .service-card ul {
+            list-style: none;
+            margin-top: 15px;
+            padding: 0;
+        }
+
+        .service-card ul li {
+            color: #555;
+            padding: 8px 0;
+            padding-right: 25px;
+            position: relative;
+        }
+
+        .service-card ul li::before {
+            content: '✓';
+            position: absolute;
+            right: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Expertise Section */
+        .expertise {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .expertise-item {
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .expertise-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary-light);
+        }
+
+        .expertise-item .icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .expertise-item h4 {
+            color: var(--primary);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .expertise-item p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* About Section */
+        .about {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .about-text h3 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .about-text p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .education-section {
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+        }
+
+        .education-section h4 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            border-right: 4px solid var(--accent);
+        }
+
+        .education-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .education-degree {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .education-institution {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .education-distinction {
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .stat-card {
+            background: var(--gradient-1);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 5px 20px rgba(10, 77, 104, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(10, 77, 104, 0.3);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Assistant', sans-serif;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 0;
+            background: linear-gradient(135deg, #0a4d68 0%, #1a5f7a 50%, #0d7ca8 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 80% 20%, rgba(243, 156, 18, 0.1) 0%, transparent 50%);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .contact-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-family: 'Assistant', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px 30px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+
+        .contact-item .icon {
+            font-size: 1.8rem;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .hero .description {
+                font-size: 1rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .expertise-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .project-card {
+                padding: 30px;
+            }
+
+            .project-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .project-highlights {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo" style="text-decoration: none; cursor: pointer;">ITMO</a>
+                <ul class="nav-links">
+                    <li><a href="#featured">הניסיון שלנו</a></li>
+                    <li><a href="#services">שירותים</a></li>
+                    <li><a href="#expertise">מומחיות</a></li>
+                    <li><a href="#about">אודות</a></li>
+                    <li><a href="#contact">צור קשר</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>פתרונות דיגיטליים מתקדמים</h1>
+                <p class="subtitle">מיכאל אוחנה - מנהל צוותים ומערכות דיגיטליות</p>
+                <p class="description">
+                    מתמחה בניהול מערכות להצעות מחיר לרשויות מקומיות, מערכות ניהול בתי מלון מותאמות אישית, אוטומציה ואופטימיזציה של מסעות לקוח, וניהול צוותי פיתוח
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">בואו נדבר</a>
+                    <a href="#featured" class="btn btn-secondary">הניסיון שלנו</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section id="featured" class="featured-project">
+        <div class="container">
+            <h2 class="section-title">הניסיון שלנו</h2>
+            <p class="section-subtitle">יש לנו ניסיון רב בשלל מערכות ופרויקטים מובילים</p>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">🏨</div>
+                    <div class="project-title">
+                        <h3>פורטל מלונות בטבריה</h3>
+                        <p class="client">פלטפורמה להזמנות ישירות</p>
+                    </div>
+                </div>
+                
+                <p class="project-description">
+                    <strong>מתוך כוונה לייצר הזמנות ישירות שמועברות לבתי המלון</strong> - ובכך לחסוך להם עמלות רבות שמשולמות לאתרי ה-OTA - יצרנו את הפורטל המקיף. <strong>יצרנו בו כלי מדידה נוחים, ידידותיים ומדויקים</strong>, כך כל מלון יוכל לכלכל את צעדיו ולנהל את העסק בצורה חכמה ויעילה יותר.
+                </p>
+
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">💰</div>
+                        <div class="highlight-text">
+                            <strong>חיסכון בעמלות</strong>
+                            <span>הזמנות ישירות ללא עמלות OTA גבוהות</span>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">📊</div>
+                        <div class="highlight-text">
+                            <strong>כלי מדידה מתקדמים</strong>
+                            <span>נוחים, ידידותיים ומדויקים לניהול העסק</span>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🎯</div>
+                        <div class="highlight-text">
+                            <strong>שליטה מלאה</strong>
+                            <span>כל מלון יכול לכלכל את צעדיו בצורה חכמה</span>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🏨</div>
+                        <div class="highlight-text">
+                            <strong>פורטל מקיף</strong>
+                            <span>פלטפורמה אחת לכל מלונות טבריה</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" style="margin-top: 40px;">
+                <div class="project-header">
+                    <div class="project-icon">🏛️</div>
+                    <div class="project-title">
+                        <h3>מערכת לבקשת הצעות מחיר</h3>
+                        <p class="client">הרשות לפיתוח הגליל</p>
+                    </div>
+                </div>
+                
+                <p class="project-description">
+                    יש לנו ניסיון רב בשלל מערכות, ביניהם: ניהול מערכת לבקשת הצעות מחיר לרשויות מקומיות ומועצות בגליל - של הרשות הממשלתית: הרשות לפיתוח הגליל. המערכת כוללת ניהול צוות פיתוח, תמיכה טכנית מלאה למשתמשים ולספקים, פיתוח ושדרוגי מערכת שוטפים, תיקון תקלות, ומתן מענה פיתוחי מקיף לכל צורך.
+                </p>
+
+                <div class="project-highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">👥</div>
+                        <div class="highlight-text">
+                            <strong>ניהול צוותים</strong>
+                            <span>הפעלה וניהול של צוותי פיתוח ותמיכה</span>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">🔧</div>
+                        <div class="highlight-text">
+                            <strong>פיתוח ותחזוקה</strong>
+                            <span>שדרוגים, תיקוני תקלות ופיתוחים חדשים</span>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">💬</div>
+                        <div class="highlight-text">
+                            <strong>תמיכה מקיפה</strong>
+                            <span>מענה טכני למשתמשים וספקים</span>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-item">
+                        <div class="highlight-icon">📊</div>
+                        <div class="highlight-text">
+                            <strong>ניהול המערכת</strong>
+                            <span>אחריות מלאה על תפעול ושיפור המערכת</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OTA Platforms Section -->
+    <section class="services" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">פלטפורמות ההזמנה שאנחנו עובדים איתן</h2>
+            <p class="section-subtitle">מומחיות בבניית נוכחות מקצועית בערוצי ההפצה המובילים בעולם</p>
+            
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 50px;">
+                <div class="service-card" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🏨</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px;">Booking.com</h3>
+                    <p style="color: #666; font-size: 0.95rem;">בניית דף מלון מקצועי וחיבור ישיר למערכת PMS</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🌏</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px;">Agoda.com</h3>
+                    <p style="color: #666; font-size: 0.95rem;">הצטרפות לפלטפורמה ואופטימיזציה מלאה</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🏡</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px;">Airbnb.com</h3>
+                    <p style="color: #666; font-size: 0.95rem;">יצירת דפי נכס מושכים וניהול הזמנות</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">✈️</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px;">Expedia.com</h3>
+                    <p style="color: #666; font-size: 0.95rem;">אינטגרציה מלאה ועדכון מלאי בזמן אמת</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🗺️</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px;">Google Maps</h3>
+                    <p style="color: #666; font-size: 0.95rem;">דפי עסק מקצועיים עם כל הפרטים</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🚗</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px;">Waze</h3>
+                    <p style="color: #666; font-size: 0.95rem;">הוספת המלון לאפליקציית הניווט</p>
+                </div>
+            </div>
+
+            <div style="background: white; border-radius: 20px; padding: 40px; margin-top: 50px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);">
+                <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 20px; text-align: center;">השירותים שלנו כוללים:</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px;">
+                    <div style="display: flex; gap: 15px; align-items: start;">
+                        <span style="font-size: 1.8rem; flex-shrink: 0;">✅</span>
+                        <div>
+                            <strong style="color: var(--primary); display: block; margin-bottom: 5px;">חיבור ישיר למערכות PMS</strong>
+                            <span style="color: #666; font-size: 0.95rem;">סנכרון מלאי ומחירים אוטומטי</span>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 15px; align-items: start;">
+                        <span style="font-size: 1.8rem; flex-shrink: 0;">✅</span>
+                        <div>
+                            <strong style="color: var(--primary); display: block; margin-bottom: 5px;">ניהול הודעות מקצועי</strong>
+                            <span style="color: #666; font-size: 0.95rem;">מענה מהיר ושירותי ללקוחות</span>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 15px; align-items: start;">
+                        <span style="font-size: 1.8rem; flex-shrink: 0;">✅</span>
+                        <div>
+                            <strong style="color: var(--primary); display: block; margin-bottom: 5px;">אוטומציות מתקדמות</strong>
+                            <span style="color: #666; font-size: 0.95rem;">הודעות אוטומטיות מותאמות אישית</span>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 15px; align-items: start;">
+                        <span style="font-size: 1.8rem; flex-shrink: 0;">✅</span>
+                        <div>
+                            <strong style="color: var(--primary); display: block; margin-bottom: 5px;">התאמה אישית מלאה</strong>
+                            <span style="color: #666; font-size: 0.95rem;">שמות לקוחות, מועדי שהייה ומידע אישי</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="services" style="background: white; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">רשתות חברתיות ושיווק דיגיטלי</h2>
+            <p class="section-subtitle">בניית נוכחות חזקה ומקצועית ברשתות החברתיות וניהול קמפיינים שיווקיים מנצחים</p>
+            
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 50px;">
+                <div class="service-card" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #1877f2 0%, #0d5dbb 100%); color: white; border: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">📘</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">Facebook</h3>
+                    <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">דפים עסקיים, פרסום ממומן, קהילות</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #e4405f 0%, #c13584 100%); color: white; border: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">📷</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">Instagram</h3>
+                    <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">פרופיל עסקי, סטוריז, רילס וקמפיינים</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #0077b5 0%, #005582 100%); color: white; border: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">💼</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">LinkedIn</h3>
+                    <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">דפי חברה, פרסום B2B, רשת מקצועית</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); color: white; border: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">💬</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">WhatsApp Business</h3>
+                    <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">פרופיל עסקי, אוטומציות, קטלוג מוצרים</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #FF0000 0%, #CC0000 100%); color: white; border: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">📹</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">YouTube</h3>
+                    <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">ערוץ עסקי, סרטוני שיווק, פרסום</p>
+                </div>
+
+                <div class="service-card" style="text-align: center; padding: 30px; background: linear-gradient(135deg, #1DA1F2 0%, #0d8bd9 100%); color: white; border: none;">
+                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🐦</div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">Twitter / X</h3>
+                    <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">נוכחות מקצועית, עדכונים, תקשורת</p>
+                </div>
+            </div>
+
+            <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 20px; padding: 50px; margin-top: 60px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);">
+                <h3 style="color: var(--primary); font-size: 2rem; margin-bottom: 30px; text-align: center; font-weight: 700;">השירותים המקיפים שלנו ברשתות חברתיות</h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;">
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                        <div style="font-size: 2.5rem; margin-bottom: 15px;">🎯</div>
+                        <h4 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 10px; font-weight: 600;">יצירת דפים עסקיים</h4>
+                        <p style="color: #666; line-height: 1.7;">בניית נוכחות מקצועית ומושכת בכל הפלטפורמות המובילות</p>
+                    </div>
+
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                        <div style="font-size: 2.5rem; margin-bottom: 15px;">💰</div>
+                        <h4 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 10px; font-weight: 600;">פרסומות ממומנות</h4>
+                        <p style="color: #666; line-height: 1.7;">יצירת קמפיינים ממומנים ממוקדים להגדלת החשיפה והמכירות</p>
+                    </div>
+
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                        <div style="font-size: 2.5rem; margin-bottom: 15px;">🎁</div>
+                        <h4 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 10px; font-weight: 600;">יצירת לידים איכותיים</h4>
+                        <p style="color: #666; line-height: 1.7;">מערכות חכמות להפקת לקוחות פוטנציאליים מתוך הרשתות החברתיות</p>
+                    </div>
+
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                        <div style="font-size: 2.5rem; margin-bottom: 15px;">📊</div>
+                        <h4 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 10px; font-weight: 600;">ניתוח וביצועים</h4>
+                        <p style="color: #666; line-height: 1.7;">מעקב אחר ביצועים, דוחות מפורטים והמלצות לשיפור</p>
+                    </div>
+
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                        <div style="font-size: 2.5rem; margin-bottom: 15px;">🎨</div>
+                        <h4 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 10px; font-weight: 600;">תוכן ויזואלי</h4>
+                        <p style="color: #666; line-height: 1.7;">יצירת גרפיקה, תמונות וסרטונים מקצועיים לרשתות החברתיות</p>
+                    </div>
+
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                        <div style="font-size: 2.5rem; margin-bottom: 15px;">🔧</div>
+                        <h4 style="color: var(--primary); font-size: 1.3rem; margin-bottom: 10px; font-weight: 600;">כלים לניהול עסק</h4>
+                        <p style="color: #666; line-height: 1.7;">מערכות וכלים מתקדמים לניהול מיטבי של העסק שלכם</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 40px; padding: 30px; background: white; border-radius: 15px; border-right: 5px solid var(--accent);">
+                    <p style="color: #555; font-size: 1.1rem; line-height: 1.9; margin: 0;">
+                        <strong style="color: var(--primary); font-size: 1.2rem;">💡 היתרון שלנו:</strong><br>
+                        אנחנו לא רק יוצרים נוכחות ברשתות חברתיות - אנחנו בונים אסטרטגיה שיווקית שלמה שמביאה תוצאות מדידות. עם הכלים והידע שלנו, תוכלו להגיע לקהל היעד שלכם בדיוק, ליצור מעורבות גבוהה, ולהפוך עוקבים ללקוחות משלמים.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">השירותים שלנו</h2>
+            <p class="section-subtitle">פתרונות מקצועיים מותאמים אישית לצרכי העסק שלך</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏨</div>
+                    <h3>מערכות ניהול בתי מלון</h3>
+                    <p>תפעול מערכות ניהול ייחודיות ומותאמות אישית לכל בית מלון</p>
+                    <ul>
+                        <li>ניהול מערכות PMS מגוונות</li>
+                        <li>יצירת דוחות ויזואליים</li>
+                        <li>הפשטה וארגון של מידע מורכב</li>
+                        <li>אינטגרציות עם ערוצי הפצה</li>
+                    </ul>
+                    <p style="margin-top: 20px; padding-top: 20px; border-top: 2px solid #e9ecef; font-weight: 600; color: var(--primary);">המומחיות שלנו:</p>
+                    <p style="line-height: 1.9; margin-top: 10px;">
+                        בניית נוכחות מלאה באתרים מובילים כמו <strong>Booking.com, Agoda.com, Airbnb.com, Expedia.com</strong> • יצירת מיקומים באפליקציית הניווט <strong>Waze</strong> • דפי מידע מקצועיים ב-<strong>Google Maps</strong> • חיבור ישיר למערכות PMS של המלון • ניהול הודעות מהאתרים תוך מתן מענה מקצועי ושירותי • יצירת אוטומציות והודעות אוטומטיות מותאמות אישית - כולל שמות לקוחות, מועדי שהייה, ומידע אישי ככל האפשר.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>מערכות הצעות מחיר - רשויות</h3>
+                    <p>ניהול מערכות מקצועיות לקבלת הצעות מחיר לרשויות מקומיות ומועצות</p>
+                    <ul>
+                        <li>ניהול מערכת מלאה</li>
+                        <li>תמיכה למשתמשים וספקים</li>
+                        <li>ניהול צוותי פיתוח</li>
+                        <li>תיקוני תקלות ושדרוגים</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>אופטימיזציה ומסעות לקוח</h3>
+                    <p>ניתוח מקיף של מסע הלקוח ויצירת אוטומציות חכמות</p>
+                    <ul>
+                        <li>ניתוח והבנת מסע הלקוח</li>
+                        <li>יצירת אוטומציות מתקדמות</li>
+                        <li>שליחת מיילים אוטומטיים</li>
+                        <li>שיפור חוויית המשתמש</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3>ניהול צוותים</h3>
+                    <p>הפעלה וניהול של צוותי פיתוח ותמיכה טכנית</p>
+                    <ul>
+                        <li>ניהול אנשי פיתוח</li>
+                        <li>תיאום עבודות צוות</li>
+                        <li>הבטחת איכות גבוהה</li>
+                        <li>עמידה בלוחות זמנים</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>דוחות וויזואליזציה</h3>
+                    <p>יצירת דוחות מקצועיים והפשטת מידע מורכב</p>
+                    <ul>
+                        <li>דוחות ויזואליים מתקדמים</li>
+                        <li>הפשטת נתונים מורכבים</li>
+                        <li>דשבורדים מנהלים</li>
+                        <li>כלי ניתוח נתונים</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>תמיכה ופיתוח שוטף</h3>
+                    <p>מענה פיתוחי מקיף, תיקון תקלות ותמיכה מלאה</p>
+                    <ul>
+                        <li>תמיכה טכנית שוטפת</li>
+                        <li>תיקון תקלות מהיר</li>
+                        <li>פיתוחים ושדרוגים</li>
+                        <li>תחזוקה מונעת</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>רשתות חברתיות ושיווק דיגיטלי</h3>
+                    <p>ניהול מקצועי של נוכחות דיגיטלית ברשתות החברתיות</p>
+                    <ul>
+                        <li>יצירת דפים עסקיים - Facebook, Instagram, LinkedIn</li>
+                        <li>פרסומות ממומנות ויצירת לידים איכותיים</li>
+                        <li>ניהול קמפיינים שיווקיים</li>
+                        <li>כלים לניהול עסק מיטבי</li>
+                    </ul>
+                    <p style="margin-top: 20px; padding-top: 20px; border-top: 2px solid #e9ecef; font-weight: 600; color: var(--primary);">המומחיות שלנו:</p>
+                    <p style="line-height: 1.9; margin-top: 10px;">
+                        יצירת דפים עסקיים מקצועיים ב-<strong>Facebook, Instagram, LinkedIn</strong> וכל פלטפורמות הרשתות החברתיות • יצירת <strong>פרסומות ממומנות</strong> ממוקדות • ייצור <strong>לידים איכותיים</strong> • שלל כלים וטכניקות שיעזרו לכם לנהל את העסק בצורה המיטבית ביותר ולהגיע לקהל היעד שלכם בדיוק.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <h2 class="section-title">תחומי מומחיות</h2>
+            <p class="section-subtitle">התמחויות ייחודיות שמבדילות אותנו</p>
+            
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <div class="icon">🏢</div>
+                    <h4>מערכות PMS מגוונות</h4>
+                    <p>יכולת תפעול ומנהל מערכות ניהול שונות, מותאמות לכל בית מלון</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">🔄</div>
+                    <h4>אוטומציה מתקדמת</h4>
+                    <p>יצירת תהליכים אוטומטיים לשליחת מיילים ותקשורת עם לקוחות</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">🌐</div>
+                    <h4>ערוצי הפצה מובילים (OTA)</h4>
+                    <p>Booking, Agoda, Airbnb, Expedia - בניית נוכחות מלאה</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">🗺️</div>
+                    <h4>מיפוי ונוכחות דיגיטלית</h4>
+                    <p>Waze, Google Maps - הצבת העסק על המפה הדיגיטלית</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">📜</div>
+                    <h4>מכרזים ורשויות</h4>
+                    <p>ניסיון עשיר בעבודה עם רשויות מקומיות ומועצות</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">🎓</div>
+                    <h4>רקע אקדמי מצטיין</h4>
+                    <p>תואר ראשון ושני ממוסדות אקדמיים מובילים</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">👨‍💼</div>
+                    <h4>ניהול צוותים</h4>
+                    <p>ניסיון בהפעלה וניהול של צוותי פיתוח ותמיכה</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">🎨</div>
+                    <h4>ויזואליזציה</h4>
+                    <p>יצירת דוחות ויזואליים להפשטת מידע מורכב</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">📱</div>
+                    <h4>רשתות חברתיות</h4>
+                    <p>Facebook, Instagram, LinkedIn - ניהול ופרסום ממומן</p>
+                </div>
+
+                <div class="expertise-item">
+                    <div class="icon">🎯</div>
+                    <h4>ייצור לידים</h4>
+                    <p>קמפיינים שיווקיים מנצחים וייצור לקוחות פוטנציאליים</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">אודות מיכאל אוחנה</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>ניסיון ומקצועיות</h3>
+                    <p>
+                        מנהל צוותים ומערכות דיגיטליות מנוסה עם התמחות ייחודית בניהול מערכות להצעות מחיר לרשויות מקומיות ומועצות, תפעול מערכות ניהול בתי מלון מגוונות, ואופטימיזציה של מסעות לקוח.
+                    </p>
+                    <p>
+                        ניהלתי את מערכת קבלת ההצעות מחיר עבור הרשות לפיתוח הגליל, כולל הפעלת צוותי פיתוח, מתן תמיכה מקיפה למשתמשים ולספקים, תיקון תקלות ומענה פיתוחי שוטף.
+                    </p>
+                    <p>
+                        המומחיות שלי כוללת ניהול מערכות ניהול בתי מלון ייחודיות ומותאמות אישית, יצירת דוחות ויזואליים מתקדמים, והפשטת מידע מורכב לצורך קבלת החלטות עסקיות.
+                    </p>
+                    <p>
+                        אני מתמחה באופטימיזציה מלאה של תהליכים עסקיים תוך הסתכלות מקיפה על מסע הלקוח, כולל יצירת אוטומציות לשליחת מיילים אוטומטיים בכל שלב של מסע הלקוח, מה שמשפר משמעותית את חוויית המשתמש והיעילות העסקית.
+                    </p>
+
+                    <div class="education-section">
+                        <h4>השכלה אקדמית</h4>
+                        <div class="education-item">
+                            <div class="education-degree">תואר שני (M.A) במדיניות ציבורית וממשל</div>
+                            <div class="education-institution">האוניברסיטה העברית בירושלים</div>
+                            <div class="education-distinction">✨ מסלול מצטיינים</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-degree">תואר ראשון (B.A) בניהול מערכות מידע</div>
+                            <div class="education-institution">המכללה האקדמית צפת</div>
+                            <div class="education-distinction">✨ סיים בהצטיינות</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">שנות ניסיון</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">פרויקטים מוצלחים</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">תארים אקדמיים</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">מחויבות להצלחה</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>בואו נדבר</h2>
+                <p>מוזמנים ליצור קשר לקבלת ייעוץ ראשוני ללא עלות</p>
+                
+                <div class="cta-buttons">
+                    <a href="/cdn-cgi/l/email-protection#5d30343e353c38311d34293032733e32733431" class="btn btn-primary">📧 שלחו מייל</a>
+                    <a href="https://wa.me/972505750000" target="_blank" class="btn btn-secondary">💬 WhatsApp</a>
+                    <a href="tel:+972-50-5750000" class="btn btn-primary">📞 התקשרו</a>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">📧</span>
+                        <a href="/cdn-cgi/l/email-protection#026f6b616a63676e426b766f6d2c616d2c6b6e"><span class="__cf_email__" data-cfemail="761b1f151e17131a361f021b19581519581f1a">[email&#160;protected]</span></a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📱</span>
+                        <a href="tel:+972-50-5750000">050-5750000</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">💬</span>
+                        <a href="https://wa.me/972505750000" target="_blank">WhatsApp</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">💼</span>
+                        <a href="https://linkedin.com/in/michael-ohana-informationtechnology" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 ITMO - מיכאל אוחנה. כל הזכויות שמורות.</p>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+     
