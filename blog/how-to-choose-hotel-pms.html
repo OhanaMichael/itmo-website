@@ -35,7 +35,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Assistant:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Assistant:wght@300;400;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Assistant:wght@300;400;600;700;800&display=swap"></noscript>
     <link rel="stylesheet" href="/assets/css/main.css">
 
     <script type="application/ld+json">
@@ -124,6 +125,7 @@
             </nav>
         </div></div>
     </header>
+    <main id="main">
     <nav class="breadcrumb" aria-label="ניווט"><div class="container"><ol>
         <li><a href="/">בית</a></li><li><a href="/blog.html">בלוג</a></li><li aria-current="page">איך לבחור מערכת ניהול מלון (PMS) ב-2026: המדריך המלא</li>
     </ol></div></nav>
@@ -163,6 +165,7 @@
           <a href="/blog.html" class="btn btn-secondary">← לכל המאמרים</a>
         </div></div></section>
     </article>
+    </main>
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
@@ -180,11 +183,11 @@
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h4>שירותים</h4>
+                    <h3>שירותים</h3>
                     <ul><li><a href="/services/web-development.html">הקמת אתרי אינטרנט</a></li><li><a href="/services/seo.html">קידום אתרים אורגני (SEO)</a></li><li><a href="/services/hotel-management-systems.html">ניהול מערכות בתי מלון (PMS)</a></li><li><a href="/services/ota-channel-management.html">ניהול ערוצי הפצה (OTA)</a></li><li><a href="/services/social-media-marketing.html">רשתות חברתיות ושיווק דיגיטלי</a></li><li><a href="/services/automation-customer-journey.html">אוטומציה ומסעות לקוח</a></li><li><a href="/services/google-business-local.html">נוכחות בגוגל ובמפות</a></li><li><a href="/services/procurement-systems.html">הצעות מחיר לרשויות</a></li><li><a href="/services/it-systems-management.html">ניהול מערכות ממוחשבות</a></li></ul>
                 </div>
                 <div class="footer-col">
-                    <h4>ניווט</h4>
+                    <h3>ניווט</h3>
                     <ul>
                         <li><a href="/">עמוד הבית</a></li>
                         <li><a href="/services/digital-management.html">ניהול דיגיטל</a></li>
@@ -195,7 +198,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>יצירת קשר</h4>
+                    <h3>יצירת קשר</h3>
                     <ul class="footer-contact">
                         <li>📞 <a href="tel:+972-50-5750000">050-575-0000</a></li>
                         <li>✉️ <a href="mailto:michael@itmo.co.il">michael@itmo.co.il</a></li>
