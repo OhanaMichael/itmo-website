@@ -1,81 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://itmo.co.il/</loc>
+    <loc>https://www.itmo.co.il/</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/digital-management.html</loc>
+    <loc>https://www.itmo.co.il/services/digital-management.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/web-development.html</loc>
+    <loc>https://www.itmo.co.il/blog.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.itmo.co.il/services/web-development.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/seo.html</loc>
+    <loc>https://www.itmo.co.il/services/seo.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/hotel-management-systems.html</loc>
+    <loc>https://www.itmo.co.il/services/hotel-management-systems.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/ota-channel-management.html</loc>
+    <loc>https://www.itmo.co.il/services/ota-channel-management.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/social-media-marketing.html</loc>
+    <loc>https://www.itmo.co.il/services/social-media-marketing.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/automation-customer-journey.html</loc>
+    <loc>https://www.itmo.co.il/services/automation-customer-journey.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/google-business-local.html</loc>
+    <loc>https://www.itmo.co.il/services/google-business-local.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/procurement-systems.html</loc>
+    <loc>https://www.itmo.co.il/services/procurement-systems.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://itmo.co.il/services/it-systems-management.html</loc>
+    <loc>https://www.itmo.co.il/services/it-systems-management.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://www.itmo.co.il/blog/how-to-choose-hotel-pms.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.itmo.co.il/blog/organic-seo-guide-2026.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
