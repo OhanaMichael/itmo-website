@@ -18,7 +18,7 @@ itmo-site-v8/
 ├── blog/                       # מאמרים
 │   ├── how-to-choose-hotel-pms.html
 │   └── organic-seo-guide-2026.html
-├── services/                   # עמודי שירות (9) + עמוד-גג
+├── services/                   # 9 עמודי שירות + עמוד-גג + פרויקט שהושלם
 │   ├── digital-management.html # עמוד-גג "ניהול דיגיטל"
 │   ├── web-development.html
 │   ├── seo.html
@@ -54,8 +54,9 @@ itmo-site-v8/
 | רשתות חברתיות | `/services/social-media-marketing.html` | שירות + לידים |
 | אוטומציה ומסע לקוח | `/services/automation-customer-journey.html` | שירות + לידים |
 | נוכחות בגוגל (Local) | `/services/google-business-local.html` | שירות + לידים |
-| הצעות מחיר לרשויות | `/services/procurement-systems.html` | שירות + לידים |
+| ביז בגליל — מערכת הצעות מחיר (פרויקט שהושלם) | `/services/procurement-systems.html` | מקרה בוחן — לא שירות שוטף |
 | ניהול מערכות ממוחשבות | `/services/it-systems-management.html` | שירות + לידים |
+| ניהול מערכות לרשויות | `/services/public-sector-systems.html` | שירות + לידים |
 | בלוג | `/blog.html` + `/blog/*` | תוכן ל-SEO |
 
 ---

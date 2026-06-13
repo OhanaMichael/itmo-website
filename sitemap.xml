@@ -61,16 +61,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.itmo.co.il/services/procurement-systems.html</loc>
+    <loc>https://www.itmo.co.il/services/it-systems-management.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.itmo.co.il/services/it-systems-management.html</loc>
+    <loc>https://www.itmo.co.il/services/public-sector-systems.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.itmo.co.il/services/procurement-systems.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.itmo.co.il/blog/how-to-choose-hotel-pms.html</loc>
