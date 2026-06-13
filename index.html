@@ -193,7 +193,7 @@
                     <li><a href="/blog.html">בלוג</a></li>
                     <li><a href="/#about">אודות</a></li>
                     <li><a href="/#contact">צור קשר</a></li>
-                    <li><a class="nav-cta" href="https://wa.me/972505750000" target="_blank" rel="noopener">💬 דברו איתי</a></li>
+                    <li><a class="nav-cta" href="https://wa.me/972505750000" target="_blank" rel="noopener">💬 דברו איתנו</a></li>
                 </ul>
             </nav>
         </div></div>
@@ -299,7 +299,7 @@
             <div class="form-row">
                 <div class="form-group"><label for="email">אימייל</label><input id="email" name="email" type="email"></div>
                 <div class="form-group"><label for="topic">תחום עניין</label><select id="topic" name="topic"><option value="">בחרו תחום...</option><option value="הקמת אתרי אינטרנט">הקמת אתרי אינטרנט</option><option value="קידום אתרים אורגני (SEO)">קידום אתרים אורגני (SEO)</option><option value="ניהול מערכות בתי מלון (PMS)">ניהול מערכות בתי מלון (PMS)</option><option value="ניהול ערוצי הפצה (OTA)">ניהול ערוצי הפצה (OTA)</option><option value="רשתות חברתיות ושיווק דיגיטלי">רשתות חברתיות ושיווק דיגיטלי</option><option value="אוטומציה ומסעות לקוח">אוטומציה ומסעות לקוח</option><option value="נוכחות בגוגל ובמפות">נוכחות בגוגל ובמפות</option><option value="ניהול מערכות ממוחשבות">ניהול מערכות ממוחשבות</option><option value="ניהול מערכות לרשויות">ניהול מערכות לרשויות</option></select></div></div>
-            <div class="form-group"><label for="message">הודעה</label><textarea id="message" name="message" placeholder="ספרו לי בקצרה על העסק והצורך..."></textarea></div>
+            <div class="form-group"><label for="message">הודעה</label><textarea id="message" name="message" placeholder="ספרו לנו בקצרה על העסק והצורך..."></textarea></div>
             <button type="submit" class="btn btn-primary">שליחה ›</button>
             <p class="form-note">הפרטים נשלחים ישירות אלינו ולא מועברים לאף גורם אחר.</p>
             <div class="form-status" id="formStatus"></div>
@@ -317,8 +317,8 @@
           e.preventDefault();
           var btn=f.querySelector('button[type=submit]'); btn.disabled=true; btn.textContent='שולח...';
           fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
-          .then(function(r){ if(r.ok){ s.className='form-status ok'; s.textContent='תודה! הפרטים התקבלו ונחזור אליכם בהקדם.'; f.reset(); } else { s.className='form-status err'; s.textContent='אופס, הייתה תקלה. אפשר לפנות אליי בוואטסאפ או בטלפון.'; } })
-          .catch(function(){ s.className='form-status err'; s.textContent='אופס, הייתה תקלה. אפשר לפנות אליי בוואטסאפ או בטלפון.'; })
+          .then(function(r){ if(r.ok){ s.className='form-status ok'; s.textContent='תודה! הפרטים התקבלו ונחזור אליכם בהקדם.'; f.reset(); } else { s.className='form-status err'; s.textContent='אופס, הייתה תקלה. אפשר לפנות אלינו בוואטסאפ או בטלפון.'; } })
+          .catch(function(){ s.className='form-status err'; s.textContent='אופס, הייתה תקלה. אפשר לפנות אלינו בוואטסאפ או בטלפון.'; })
           .finally(function(){ btn.disabled=false; btn.textContent='שליחה ›'; });
         });
       })();
